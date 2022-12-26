@@ -6,7 +6,7 @@ Terraform module on AWS.
 
 ```hcl
 module "main" {
-  source      = "genstackio/layer-api/aws"
+  source      = "flozonn/layer-api/aws"
 
   // ...
 }
