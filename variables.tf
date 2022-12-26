@@ -49,3 +49,7 @@ variable "policy_statements" {
   )
   default = []
 }
+variable "tracing_mode" {
+  type    = string
+  default = "Active"
+}
