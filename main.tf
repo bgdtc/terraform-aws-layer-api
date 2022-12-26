@@ -28,7 +28,7 @@ module "lambda" {
   handler           = var.handler
   timeout           = var.timeout
   memory_size       = var.memory_size
-  policy_statements = var.tracing_mode == "Active" ? concat(var.lambda_policy_statements,[
+  policy_statements = var.tracing_mode == "Active" ? concat(var.policy_statements,[
      {
       actions   = ["xray:PutTraceSegments"]
       resources = ["*"]
