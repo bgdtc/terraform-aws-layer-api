@@ -39,7 +39,7 @@ module "lambda" {
       resources = ["*"]
       effect    = "Allow"
     }
-  ]) : var.lambda_policy_statements
+  ]) : var.policy_statements
   tracing_mode      = var.tracing_mode
   variables         = var.variables
   runtime           = var.runtime
