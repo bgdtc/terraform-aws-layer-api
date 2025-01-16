@@ -1,4 +1,4 @@
-# AWS Layer API Terraform module
+# AWS Layer API Terraform module UPGRADED :p
 
 Terraform module on AWS.
 
@@ -6,7 +6,7 @@ Terraform module on AWS.
 
 ```hcl
 module "main" {
-  source      = "flozonn/layer-api/aws"
+  source      = "bgdtc/layer-api/aws"
 
   // ...
 }

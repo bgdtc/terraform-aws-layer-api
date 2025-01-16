@@ -21,7 +21,7 @@ variable "package_s3_key" {
 }
 variable "runtime" {
   type    = string
-  default = "nodejs12.x"
+  default = "nodejs22.x"
 }
 variable "timeout" {
   type    = number
